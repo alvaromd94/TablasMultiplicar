@@ -1,5 +1,5 @@
 package es.studium.TablasMultiplicar;
-//Aquí están los import
+//AquÃ­ estÃ¡n los import
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,11 +11,14 @@ public class TablasMultiplicar
 		BufferedReader lectura = new BufferedReader(new
 				InputStreamReader(System.in));
 		int numero,resultado,i;
-		System.out.println("Dame un número:");
+		System.out.println("Dame un nÃºmero:");
 		numero = Integer.parseInt(lectura.readLine());
 		for (i=0;i<=10;i++)
 		{
 			resultado=numero*i;
+			
+			//Mostramos el resultado por pantalla
+			
 			System.out.println(numero+"*"+i+"="+resultado);
 		}
 	}
