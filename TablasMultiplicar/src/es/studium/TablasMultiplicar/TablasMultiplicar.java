@@ -1,4 +1,6 @@
 package es.studium.TablasMultiplicar;
+//Aquí están los import
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
