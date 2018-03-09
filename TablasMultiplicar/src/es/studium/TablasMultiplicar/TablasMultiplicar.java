@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class TablasMultiplicar
 {
 	//He editado esta clase (Óscar Esteban Morillo)
+	//He editado esta clase (Juan Antonio Redondo)
 	public static void main(String[] args) throws IOException
 	{
 		BufferedReader lectura = new BufferedReader(new
