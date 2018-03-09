@@ -14,6 +14,7 @@ public class TablasMultiplicar
 		System.out.println("Dame un número:");
 		numero = Integer.parseInt(lectura.readLine());
 		for (i=0;i<=10;i++)
+			//He editado esta clase(RM)
 		{
 			resultado=numero*i;
 			
